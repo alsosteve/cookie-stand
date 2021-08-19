@@ -1,0 +1,54 @@
+
+body{
+  font-family: 'STIX Two Text', serif;
+}
+header {
+  max-width: 100%;
+  background-color: black;
+  color: white;
+  padding-top: 15px ;
+  padding-bottom: 15px;
+  
+}
+
+ul {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-around;
+}
+
+li {
+  font-size: 30px;
+  font-family: 'Staatliches', cursive;
+}
+
+li h1 {
+  text-shadow: 7px 5px 1px rgb(0, 0, 0);
+  padding: 5px;
+}
+
+h1 {
+  font-size: 100px;
+  font-family: 'Staatliches', cursive;
+  background-color: rgb(61, 61, 61);
+  border-radius: 15px;
+  text-shadow: 5px 4px 1px rgb(255, 255, 255);
+  margin: 5px;
+  
+}
+
+#landing {
+  background-image: url(../img/fishiespng.png);
+  text-align: center;
+  padding: 60px;
+}
+
+div {
+  background-color: rgb(61, 61, 61);
+  padding: 12px;
+  border-radius: 15px;
+}
+
+h2 {
+  color: red;
+}
