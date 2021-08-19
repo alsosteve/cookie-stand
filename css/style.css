@@ -1,10 +1,11 @@
 
 body{
   font-family: 'STIX Two Text', serif;
+  background: linear-gradient(90deg, rgb(0, 0, 0) 33%, salmon 33%, salmon 66%, rgb(0, 0, 0) 66%);
 }
 header {
   max-width: 100%;
-  background-color: black;
+  background-color: salmon;
   color: white;
   padding-top: 15px ;
   padding-bottom: 15px;
@@ -45,10 +46,44 @@ h1 {
 
 div {
   background-color: rgb(61, 61, 61);
-  padding: 12px;
+  padding: 10px;
   border-radius: 15px;
+  text-align: center;
+}
+
+h3 {
+  color: white;
+  font-size: 25px;
+  margin-bottom: 10px;
+  text-decoration: underline;
+}
+
+h4 {
+  color: salmon;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: salmon;
+  padding: 20px 0px;
+
 }
 
 h2 {
-  color: red;
+  background-color: salmon;
+  font-size: 100px;
+  text-align: center;
+  color: white;
+}
+
+p {
+  color: white;
+  font-size: 20px;
+}
+
+article {
+  display: flex;
+  justify-content: space-around;
+  padding: 8px;
 }
