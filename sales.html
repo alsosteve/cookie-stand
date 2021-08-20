@@ -1,11 +1,47 @@
 <!DOCTYPE html>
   <html>
     <head>
-      <title>Sales Page</title>
+      <title>Salmon Cookies</title>
       <link rel="stylesheet" href="./css/reset.css">
       <link rel="stylesheet" href="./css/style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=STIX+Two+Text&family=Staatliches&display=swap" rel="stylesheet">
+
     </head>
     <body>
+      <header>
+        <nav>
+          <ul>
+            <li><a href="store.html">Store</a></li>
+            <li><h1> Salmon Cookies. </h1></li> <!-- centered tittle -->
+            <li><a href="sales.html">Sales</a></li>
+          </ul>
+        </nav>
+      </header>
+      <fieldset>
+        <legend>New Cookie Stand</legend>
+
+        <label>City
+          <input type="text" name="city">
+        </label>
+
+        <label>Minimum Customers
+          <input type="number" name="min">
+        </label>
+
+        <label>Maximim Customers
+          <input type="number" name="max">
+        </label>
+
+        <label>Average Cookies Sold
+          <input type="number" step=".1" name="max">
+        </label>
+
+        <button type="submit">Submit Here!</button>
+
+      </fieldset>
+
       <div id="locations">
         <!-- put location info here -->
         <!-- <article>

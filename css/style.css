@@ -87,3 +87,30 @@ article {
   justify-content: space-around;
   padding: 8px;
 }
+
+fieldset {
+  border: 5px solid green;
+  padding: 5px;
+  margin: 15px 20px;
+  color: white;
+}
+
+legend {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+input[type=text] {
+  margin-right: 5px;
+}
+
+nav li a {
+  font-size: 40px;
+  font-family: 'Staatliches', cursive;
+  text-decoration: none;
+  color: white;
+}
+
+nav li a:hover {
+  color: green;
+}
